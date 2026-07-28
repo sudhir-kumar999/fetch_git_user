@@ -71,3 +71,4 @@ export default defineConfig([
   },
 ])
 ```
+Every JavaScript object has an internal link to another object called its prototype ([[Prototype]]). When a property or method is not found on the object itself, JavaScript automatically looks for it on the object's prototype, and continues searching up the prototype chain until it is found or the chain ends.
